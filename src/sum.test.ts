@@ -1,4 +1,4 @@
-import { sum } from "./server";
+import { sum } from "./sum";
 
 describe("Sum Function Tests", () => {
   let sumResult: number;

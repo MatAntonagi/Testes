@@ -1,13 +1,13 @@
 {
   "compileOptions": {
-    "target": "ES2022",  // versão do JavaScript que será gerada
-    "lib": ["ES2023"], // bibliotecas padrão do JavaScript a serem incluídas
+    "target": "ES2022",
+    "lib": ["ES2023"],
     
-    "module": "node16",  // sistema de módulos
-    "esModuleInterop": true, // para compatibilidade entre módulos CommonJS e ES6
-    "forceConsistentCasingInFileNames": true, // força o uso consistente de maiúsculas e minúsculas nos nomes de arquivos
+    "module": "node16",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
 
-    "strict": true, // ativa todas as verificações de tipo estritas
-    "skipLibCheck": true, // ignora a verificação de tipos em arquivos de declaração (.d.ts)
+    "strict": true,
+    "skipLibCheck": true,
   }
 }
